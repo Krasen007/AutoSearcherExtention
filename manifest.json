@@ -1,0 +1,42 @@
+{
+    "name": "Auto Searcher",
+    "version": "1.0",
+    "description": "Search multiple sites at the same time",
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "options_page": "options.html",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "auto_search.html",
+        "default_icon": {
+            "16": "icons/auto_search-16.png",
+            "32": "icons/auto_search-32.png",
+            "64": "icons/auto_search-64.png",
+            "128": "icons/auto_search-128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/auto_search-16.png",
+        "32": "icons/auto_search-32.png",
+        "64": "icons/auto_search-64.png",
+        "128": "icons/auto_search-128.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Starts multiple predefined searches"
+        }
+    }
+}
