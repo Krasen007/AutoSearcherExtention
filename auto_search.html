@@ -1,35 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
+    <title>Auto Searcher Extention</title>
+    <meta charset="UTF-8">
     <style>
-        button {
+        /* button {
             height: 20px;
             width: 30px;
-        }
-
-        #buttonDiv {
-            color: rgb(245, 45, 45);
-        }
+        } */
     </style>
 </head>
 
 <body>
-    <h2>Auto Searcher</h2>
-    <!-- <button id="changeColor"></button> -->
-s
-    <!-- <form> -->
-        <!-- <div id="buttonDiv"> -->
-                <button id="addSearch" type="button"></button>
-                <button id="removeSearch" type="button"></button>
-        <!-- </div> -->
-   
-    <input id="searchString" type="text" name="search" placeholder="Search.." onkeydown="Search(this)" /> asd
-    <button id="searchQuery" type="button"></button>
+    <h2 style="text-align:center;">Auto Searcher</h2>
 
-    <!-- </form> -->
+    <button title="Add new site field" style="color:green" id="addSearch" type="button">Add</button>
+    <button title="Remove site field" style="color:red" id="removeSearch" type="button">Remove</button>
+    
+    <input title="Press enter to search for the input" id="searchString" type="text" name="search" placeholder="Search.." onkeydown="Search(this)"
+    />
+    <button title="Search on the current input in the field box" id="searchQuery" type="button">Search</button>
 
     <script src="popup.js"></script>
+    <a href="options.html">Options</a>
 </body>
 
 </html>
