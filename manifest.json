@@ -1,7 +1,7 @@
 {
     "name": "Auto Searcher",
-    "version": "1.0",
-    "description": "Search multiple sites at the same time",
+    "version": "0.1.0",
+    "description": "Search multiple predefined sites at the same time.",
     "permissions": [
         "activeTab",
         "declarativeContent",
@@ -9,7 +9,7 @@
     ],
     "background": {
         "scripts": [
-            "background.js"
+            "scripts/background.js"
         ],
         "persistent": false
     },
@@ -36,7 +36,7 @@
                 "default": "Ctrl+Shift+F",
                 "mac": "MacCtrl+Shift+F"
             },
-            "description": "Starts multiple predefined searches"
+            "description": "Starts multiple predefined searches."
         }
     }
 }
