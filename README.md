@@ -11,5 +11,9 @@ Currently you have to add all files to a folder and add it as unpacked extention
 Tested on Vivaldi Browser.
 
 ## Credits:
-Main programming: Krasen Ivanov 2019
-Icon pack made by Freepik from www.flaticon.com and is licensed by CC 3.0 BY
+Main programming: Krasen Ivanov 2019.
+Icon pack made by Freepik from www.flaticon.com and is licensed by CC 3.0 BY.
+
+### Stuff I want to implement:
+Ability to add and remove custom sites to search within.
+Auto add copied text from the clipboard and search.
