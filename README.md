@@ -5,13 +5,21 @@ The extention is useful for finding stuff you know you can find but are not sure
 
 The extention based on Chrome extentions.
 
-## To install:
-Currently you have to add all files to a folder and add it as unpacked extention in your browser.
+![ScreenShot](screenshot.png)
 
-Tested on Vivaldi Browser.
+## To install:
+Open your browser extensions page and enable developer options.
+Clone the repo and simply add the folder as unpacked extention.
+
+Version 0.1.2 Tested on Opera Browser.
+Version 0.1.1 Tested on Vivaldi Browser.
+
+## Known Issues:
+The extension may fail to load all of the sites.
+It works normally if its just used as plain html page, but when is a popup extensions it may not load them all.
 
 ## Credits:
-Main programming: Krasen Ivanov 2019.
+Main programming: Krasen Ivanov 2019 - 2022.
 Icon pack made by Freepik from www.flaticon.com and is licensed by CC 3.0 BY.
 
 ### Stuff I want to implement:

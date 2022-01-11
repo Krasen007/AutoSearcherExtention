@@ -2,3 +2,12 @@ button {
     height: 40px;
     width: 90px;
 }
+
+body {
+    width: 350px;
+}
+
+input {
+    height: 30px;
+    width: 210px;
+}
