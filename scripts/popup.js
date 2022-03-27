@@ -20,15 +20,20 @@ searchQueryButton.onclick = function () {
 
 // List of predefined search sites.
 function OpenPredefinedSearches(inputFieldString) {
-    window.open('https://fly.bg/index.php?route=index&action=listing&q=' + inputFieldString);
-    window.open('https://www.it4profit.com/shop/pages/catalog.xhtml?searchString=' + inputFieldString);
+
+    window.open('https://fly.bg/product/search?search=' + inputFieldString);
     window.open('http://techvision-bg.com/bg/search.html?s=' + inputFieldString + '&search_posttype=product');
     window.open('https://www.dekada.com/advanced_search_result.php?keywords=' + inputFieldString + '&image=one&search_in_description=0');
     window.open('https://www.itshop.bg/search.html?phrase=' + inputFieldString + '&x=0&y=0');
     window.open('https://virtualnazona.com/bg/?subcats=Y&pcode_from_q=Y&pshort=N&pfull=N&pname=Y&pkeywords=Y&search_performed=Y&q=' + inputFieldString + '&dispatch=products.search');
     window.open('https://www.vali.bg/bg/catalog#!?q=' + inputFieldString + '&s=newest');
-    window.open('https://polycomp.bg/poly/products'); // does not auto search  
-    window.open('http://mostbg.com/most/PriceList.aspx'); // does not auto search
+    window.open('https://www.it4profit.com/shop/pages/catalog.xhtml?searchString=' + inputFieldString); // Requires login
+    window.open('https://polycomp.bg/poly/products'); // Does not auto search
+    window.open('http://mostbg.com/most/PriceList.aspx'); // Does not auto search
 
-    /// window.open('https://solytron.bg/product/search?q=' + inputFieldString + '&sort=asc'); old not working site
+    /// Old links
+    //window.open('https://solytron.bg/product/search?q=' + inputFieldString + '&sort=asc');
+    //window.open('https://fly.bg/index.php?route=index&action=listing&q=' + inputFieldString);
+    //window.open("https://www.google.com/search?q=" + inputFieldString);
+    //window.open("https://www.bing.com/search?q=" + inputFieldString);
 }

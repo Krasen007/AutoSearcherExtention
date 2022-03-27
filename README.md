@@ -1,21 +1,22 @@
 # AutoSearcherExtention
 Search for a query in multiple predefined websites.
-Open all sites in new window in your browser. 
-The extention is useful for finding stuff you know you can find but are not sure where to search for them, and just search for the same thing everywhere.
+Open all sites in new window in your browser.
+The extension is useful for finding stuff you know you can find but are not sure where to search for them, and just search for the same thing everywhere.
 
-The extention based on Chrome extentions.
+The extension based on Chrome extensions.
 
 ![ScreenShot](screenshot.png)
 
 ## To install:
 Open your browser extensions page and enable developer options.
-Clone the repo and simply add the folder as unpacked extention.
+Clone the repo and simply add the folder as unpacked extension.
 
+Version 0.1.3 Tested on Edge Browser.
 Version 0.1.2 Tested on Opera Browser.
 Version 0.1.1 Tested on Vivaldi Browser.
 
 ## Known Issues:
-The extension may fail to load all of the sites.
+The extension may fail to load all of the sites on slower machines.
 It works normally if its just used as plain html page, but when is a popup extensions it may not load them all.
 
 ## Credits:
